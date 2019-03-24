@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #E0B7B7;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+@media(max-width:768px){
+    .container {
+        width: 100%;
+        margin: auto;
+    }
+}
+
+header, .sobreMim{
+    background-color: #011638;
+}
+
+@media(max-width:768px){
+    h4 {
+        font-weight: lighter;
+    }
+    h5{   
+        display: none;
+    }
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+@media(max-width:768px){
+    nav {
+        justify-content: center;
+    }
+}
+
+
+.nav_lista-link{
+    text-decoration: none;
+}
+
+@media(max-width:768px){
+    .nav_lista{
+        display: flex;
+        margin: 0;
+    }
+    
+    .nav_lista-link{
+        text-decoration: none;
+    }
+}
+
+ul {
+    display: flex;
+    width: 49%;
+    align-items: center;
+    justify-content: space-around;
+    text-transform: uppercase;
+    height: 10vh;
+}
+
+ul, li {
+    list-style-type: none;
+}
+
+@media(max-width:768px){
+    ul {
+        width: 100%;
+        font-size: 0.8rem;
+    }
+}
+
+ul > li {
+    list-style: none;
+}
+
+body{
+    color: grey;
+}
+
+.banner{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 200px;
+    font-size: 1.5rem;
+}
+.banner_title-color{
+    color: #F75696;
+}
+
+@media(max-width:768px){
+    .banner {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .banner_title{
+        font-size: 2.5rem;
+    }
+}
+
+
+.seta{
+    padding: 50px;
+}
+.seta_img{
+    width: 5%;
+}
+
+@media(max-width:768px){
+    .seta_img{
+        width: 10%;
+    }
+}
+
+
+.projetos_title,  .titles{
+    font-size: 2rem;
+    color: #DC7F9B;
+    text-align: center;
+    padding: 20px;
+    margin-top: 10px;
+}
+.projetos_site{
+    display: flex;
+}
+
+.site_img{
+    width:90%;
+    border: 5px solid transparent;
+}
+.site_img:hover {
+    border: 5px solid #F75696;
+}
+
+.site_title{
+    color: #011638;
+    width: 90%;
+    margin-top: 20px;
+}
+
+@media(max-width:768px){
+    /* .projetos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    } 
+    o flex desse nao tava pegando no mobile
+    */
+    .projetos_site{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .site_title{
+        width: 100%;
+    }
+
+    .site {
+        margin-bottom: 40px;
+        text-align: center;
+        margin: 10px 20px;
+    }
+}
+
+
+
+.btn{
+    padding: 20px;
+    text-align: center;
+}
+.btn_link{
+    color: white;
+    background: #DC7F9B;
+    padding: 12px 15px;
+    text-decoration: none;
+    border-radius: 1rem;
+    margin-top: 18px;
+    font-size: 1rem;
+    margin-bottom: 21px;
+}
+.sobreMim{
+    background-color: #011638;
+    text-align: center;
+}
+.sobreMim_img{
+    border: 4px solid #ddd;
+    border-radius: 100%;
+    height: 157px;
+    object-fit: cover;
+    width: 157px;
+}
+.sobreMim_btn_link {
+    display: inline-block;
+    color: #F75696;
+    border: 4px solid #F75696;
+    text-transform: uppercase;
+    padding: 12px 20px;
+    margin: 20px auto;
+    font-size: 0.87rem;
+    text-decoration: none;
+}
+.sobreMim_description {
+    margin-top: 1rem;
+}
+@media(max-width:768px){
+    .sobreMim_btn{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sobreMim_description{
+        font-size: 1.4rem;
+        font-weight: lighter;
+        padding: 20px;
+    }
+}
+
+.contato{
+    padding-bottom: 12%;
+}
+.contato_icons{
+    display: flex;
+    justify-content: space-around;
+}
+.contato_img{
+    width: 10%;    
+}
+.contato_img-icon{
+    width: 100%;
+}
+
+@media(max-width:768px){
+    .contato_icons {
+        display: flex;
+        flex-direction: column;        
+    }
+    .contato_img{
+        margin: 20px auto;
+        width: 20%;    
+    }
+}
+
+
+footer{
+    background-color: #011638;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.2rem;
+    padding: 1.2rem;
+}
+nav a:hover{
+    color: #F75696;
+}
+
+
+
+
+
+
+
+
