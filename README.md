@@ -6,8 +6,10 @@
 
 * HTML
 * CSS
+* Javascript
+* jQuery
 
-Confira no link: https://estrelaexercicio2.netlify.com/
+Confira no link: https://estrelasteinkirch.github.io/portfolio/
 
 
 ![Screenshot do Site](https://estrelabootstrap.netlify.com/src/assets/card3.png)
